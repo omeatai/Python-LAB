@@ -8,5 +8,24 @@
 # print(sum)
 # print(type(sum))
 
-a,b,c = 1,2,3
-print(a,b,c)
+# a,b,c = 1,2,3
+# print(a,b,c)
+
+#STRING FORMATTING
+name = 'Jonny'
+Age = 56
+print(f"Hi {name}, you are {Age} years old.")
+print("Hi {}, you are {} years old.".format(name, Age))
+
+
+
+
+
+
+
+
+
+
+
+
+
