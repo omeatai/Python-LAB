@@ -137,11 +137,11 @@ print(user.get('age'))
 
 user2 = dict(name='henry')
 print(user2)
-print('name' in user2)
-print('age' in user2)
 print('name' in user2.keys())
 print('henry' in user2.values())
-
+print(user2.keys())
+print(user2.values())
+print(user2.items())
 
 
 
