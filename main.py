@@ -23,6 +23,7 @@ print(quote.capitalize())
 print(quote.title())
 print(quote.upper())
 print(quote.casefold())
+print(quote.find('be'))
 
 
 
