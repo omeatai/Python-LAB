@@ -97,28 +97,30 @@
 
 
 #LIST METHODS2
-letters = ['a','b','c','a','b']
-print(letters.index('b'))
-print(letters.index('b',0,3))
-print('a' in letters)
-print('d' in letters)
-print(letters.count('b'))
-print(letters)
-letters.reverse()
-print(letters)
-letters.sort()
-print(letters)
-more_letters = sorted(letters, reverse=True)
-print(more_letters)
-print(more_letters[::-1])
+# letters = ['a','b','c','a','b']
+# print(letters.index('b'))
+# print(letters.index('b',0,3))
+# print('a' in letters)
+# print('d' in letters)
+# print(letters.count('b'))
+# print(letters)
+# letters.reverse()
+# print(letters)
+# letters.sort()
+# print(letters)
+# more_letters = sorted(letters, reverse=True)
+# print(more_letters)
+# print(more_letters[::-1])
+# #
+# nums = list(range(10,21))
+# print(nums)
+# string_nums = [str(i) for i in nums]
+# print(string_nums)
+# nums_set = '-'.join(string_nums)
+# print(nums_set)
 
-nums = list(range(10,21))
-print(nums)
-string_nums = [str(i) for i in nums]
-print(string_nums)
-nums_set = '-'.join(string_nums)
-print(nums_set)
 
+#LIST UNPACKING
 
 
 
