@@ -135,7 +135,8 @@ user = {
 print(user.get('friends', ['paul','ade']))
 print(user.get('age'))
 
-
+user2 = dict(name='henry')
+print(user2)
 
 
 
