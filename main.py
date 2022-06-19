@@ -137,7 +137,7 @@ print(user.get('age'))
 
 user2 = dict(name='henry')
 print(user2)
-
-
+print('age' in user2)
+print('name' in user2)
 
 
