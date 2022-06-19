@@ -55,13 +55,46 @@
 # 2018
 
 #DATETIME - YEAR
-import datetime
+# import datetime
 
-#INPUT 
-birth_year = int(input('What year were you born?\n'))
-current_year = datetime.datetime.now()
-age = current_year.year - birth_year
-print(f"You are approximately {age} years old.")
+# #INPUT 
+# birth_year = int(input('What year were you born?\n'))
+# current_year = datetime.datetime.now()
+# age = current_year.year - birth_year
+# print(f"You are approximately {age} years old.")
+
+
+#PASSWORD CHECKER
+
+# username = input('What is your name?\n')
+# password = input('Enter your password:\n')
+# password_length = len(password)
+# hashed_password = '*' * password_length
+
+# print(f"Hey {username.title()}, your password [{hashed_password}] is {password_length} characters long.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
