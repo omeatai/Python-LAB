@@ -24,6 +24,7 @@ print(quote.title())
 print(quote.upper())
 print(quote.casefold())
 print(quote.find('be'))
+print(quote.replace('be', 'me'))
 
 
 
