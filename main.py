@@ -18,14 +18,51 @@
 # print("Hi {}, you are {} years old.".format(name, Age))
 
 #BUILT-IN-METHODS
-quote = "to be or not"
-print(quote.capitalize())
-print(quote.title())
-print(quote.upper())
-print(quote.casefold())
-print(quote.find('be'))
-print(quote.replace('be', 'me'))
+# quote = "to be or not"
+# print(quote.capitalize())
+# print(quote.title())
+# print(quote.upper())
+# print(quote.casefold())
+# print(quote.find('be'))
+# print(quote.replace('be', 'me'))
 
+#DATETIME
+# import datetime
+
+# x = datetime.datetime(2018, 6, 1)
+
+# print(x.strftime("%A"))
+# print(x.strftime("%B"))
+# print(x.strftime("%C"))
+# print(x.strftime("%D"))
+# print(x.strftime("%F"))
+# print(x.strftime("%G"))
+# print(x.strftime("%H"))
+# print(x.strftime("%I"))
+# print(x.strftime("%W"))
+# print(x.strftime("%Y"))
+# print(x.strftime("%Z"))
+
+# Friday
+# June
+# 20
+# 06/01/18
+# 2018-06-01
+# 2018
+# 00
+# 12
+# 22
+# 2018
+
+
+
+import datetime
+
+#INPUT 
+birth_year = input('What year were you born?')
+current_year = datetime.datetime.now()
+age = current_year.year - birth_year
+print(f"You are approximately {age} years old.")
 
 
 
