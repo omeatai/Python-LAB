@@ -79,34 +79,44 @@
 
 
 #LIST METHODS
-numbers = [1,2,3,4,5,6]
-numbers.append(7)
-print(numbers)
-numbers.insert(2,100)
-print(numbers)
-numbers.extend([1,2,3,200,300])
-print(numbers)
-numbers.pop()
-print(numbers)
-numbers.pop(1)
-print(numbers)
-numbers.remove(100)
-print(numbers)
+# numbers = [1,2,3,4,5,6]
+# numbers.append(7)
+# print(numbers)
+# numbers.insert(2,100)
+# print(numbers)
+# numbers.extend([1,2,3,100,200])
+# print(numbers)
+# numbers.pop()
+# print(numbers)
+# numbers.pop(1)
+# print(numbers)
+# numbers.remove(100)
+# print(numbers)
+# numbers.clear()
+# print(numbers)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#LIST METHODS2
+letters = ['a','b','c','a','b']
+print(letters.index('b'))
+print(letters.index('b',0,3))
+print('a' in letters)
+print('d' in letters)
+print(letters.count('b'))
+print(letters)
+letters.reverse()
+print(letters)
+letters.sort()
+print(letters)
+more_letters = sorted(letters, reverse=True)
+print(more_letters)
+print(more_letters[::-1])
+nums = list(range(10,21))
+print(nums)
+string_nums = [str(i) for i in nums]
+print(string_nums)
+nums_set = '-'.join(string_nums)
+print(nums_set)
 
 
 
