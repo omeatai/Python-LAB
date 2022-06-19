@@ -20,7 +20,7 @@
 # print("Hi {}, you are {} years old.".format(name, Age))
 
 
-#BUILT-IN-METHODS
+#STRING METHODS
 # quote = "to be or not"
 # print(quote.capitalize())
 # print(quote.title())
@@ -75,9 +75,10 @@
 # password = input('Enter your password:\n')
 # password_length = len(password)
 # hashed_password = '*' * password_length
-
 # print(f"Hey {username.title()}, your password [{hashed_password}] is {password_length} characters long.")
 
+
+#LIST METHODS
 
 
 
