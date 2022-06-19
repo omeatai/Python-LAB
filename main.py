@@ -132,7 +132,7 @@ user = {
   'cars': ['toyota','mazda']
 }
 
-print(user.get('friends'))
+print(user.get('friends', ['paul','ade']))
 print(user.get('age'))
 
 
