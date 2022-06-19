@@ -111,6 +111,7 @@ print(letters)
 more_letters = sorted(letters, reverse=True)
 print(more_letters)
 print(more_letters[::-1])
+
 nums = list(range(10,21))
 print(nums)
 string_nums = [str(i) for i in nums]
