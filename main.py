@@ -12,10 +12,16 @@
 # print(a,b,c)
 
 #STRING FORMATTING
-name = 'Jonny'
-Age = 56
-print(f"Hi {name}, you are {Age} years old.")
-print("Hi {}, you are {} years old.".format(name, Age))
+# name = 'Jonny'
+# Age = 56
+# print(f"Hi {name}, you are {Age} years old.")
+# print("Hi {}, you are {} years old.".format(name, Age))
+
+#BUILT-IN-METHODS
+quote = "to be or not"
+print(quote.capitalize())
+print(quote.title())
+print(quote.upper())
 
 
 
