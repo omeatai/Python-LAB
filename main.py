@@ -62,7 +62,6 @@
 #DATETIME - YEAR
 # import datetime
 
-# #INPUT 
 # birth_year = int(input('What year were you born?\n'))
 # current_year = datetime.datetime.now()
 # age = current_year.year - birth_year
@@ -70,7 +69,6 @@
 
 
 #PASSWORD CHECKER
-
 # username = input('What is your name?\n')
 # password = input('Enter your password:\n')
 # password_length = len(password)
