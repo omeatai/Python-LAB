@@ -119,14 +119,21 @@
 
 
 #LIST UNPACKING
-a,_,c,*args,d = [10,20,30,40,50,60,70]
-print(a)
-print(c)
-print(d)
+# a,_,c,*args,d = [10,20,30,40,50,60,70]
+# print(a)
+# print(c)
+# print(d)
 
 
+#DICTIONARY
+user = {
+  'name': 'James',
+  'age': 32,
+  'cars': ['toyota','mazda']
+}
 
-
+print(user.get('friends'))
+print(user.get('age'))
 
 
 
