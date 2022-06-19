@@ -88,9 +88,10 @@ numbers.extend([1,2,3,200,300])
 print(numbers)
 numbers.pop()
 print(numbers)
-numbers.pop(3)
+numbers.pop(1)
 print(numbers)
-
+numbers.remove(100)
+print(numbers)
 
 
 
