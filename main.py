@@ -79,7 +79,11 @@
 
 
 #LIST METHODS
-
+numbers = [1,2,3,4,5,6]
+numbers.append(7)
+print(numbers)
+numbers.insert(2,100)
+print(numbers)
 
 
 
