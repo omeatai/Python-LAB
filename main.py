@@ -134,7 +134,7 @@ user = {
 
 print(user.get('friends', ['paul','ade']))
 print(user.get('age'))
-
+ 
 user2 = dict(name='henry')
 print(user2)
 print('name' in user2.keys())
@@ -143,6 +143,13 @@ print(user2.keys())
 print(user2.values())
 print(user2.items())
 
+user3 = user2.copy()
+print(user3)
+print(user3.pop('name'))
+print(user3)
+
+user2.clear()
+print(user2)
 
 
 
