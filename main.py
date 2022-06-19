@@ -158,19 +158,25 @@
 # print(user4)
 
 
-#TUPLE 
-nums = (1,2,3,4,5,6,5,6)
-print(nums.count(5))
-print(nums.index(4))
+#TUPLES
+# nums = (1,2,3,4,5,6,5,6)
+# print(nums.count(5))
+# print(nums.index(4))
 
 
-
-
-
-
-
-
-
+#SETS
+my_set = {1,2,3,4,5,4,5,6}
+my_set.add(100)
+my_set.add(2)
+print(my_set)
+print('##########################')
+mylist = [2,2,4,4,5,5]
+print(list(set(mylist)))
+print('##########################')
+myset2 = my_set.copy()
+print(myset2)
+myset2.clear()
+print(myset2)
 
 
 
