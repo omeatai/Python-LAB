@@ -58,7 +58,7 @@
 import datetime
 
 #INPUT 
-birth_year = input('What year were you born?\n')
+birth_year = int(input('What year were you born?\n'))
 current_year = datetime.datetime.now()
 age = current_year.year - birth_year
 print(f"You are approximately {age} years old.")
