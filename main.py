@@ -119,10 +119,10 @@
 
 
 #LIST UNPACKING
-a,_,c,*args = [10,20,30,40,50,60,70]
+a,_,c,*args,d = [10,20,30,40,50,60,70]
 print(a)
 print(c)
-
+print(d)
 
 
 
