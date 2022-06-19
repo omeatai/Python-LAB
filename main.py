@@ -84,7 +84,8 @@ numbers.append(7)
 print(numbers)
 numbers.insert(2,100)
 print(numbers)
-
+numbers.extend([10,11,12,13,14])
+print(numbers)
 
 
 
