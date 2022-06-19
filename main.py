@@ -22,6 +22,7 @@ quote = "to be or not"
 print(quote.capitalize())
 print(quote.title())
 print(quote.upper())
+print(quote.casefold())
 
 
 
