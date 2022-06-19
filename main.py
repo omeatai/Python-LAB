@@ -126,36 +126,59 @@
 
 
 #DICTIONARY
-user = {
-  'name': 'James',
-  'age': 32,
-  'cars': ['toyota','mazda']
-}
+# user = {
+#   'name': 'James',
+#   'age': 32,
+#   'cars': ['toyota','mazda']
+# }
 
-print(user.get('friends', ['paul','ade']))
-print(user.get('age'))
+# print(user.get('friends', ['paul','ade']))
+# print(user.get('age'))
 
-print("############## KEYS AND VALUES ###########")
-user2 = dict(name='henry',age='24')
-print(user2)
-print('name' in user2.keys())
-print('henry' in user2.values())
-print(user2.keys())
-print(user2.values())
-print(user2.items())
-print("############## COPY AND POP #################")
-user3 = user.copy()
-print(user3)
-print(user3.pop('cars'))
-print(user3)
-print("############## UPDATE AND POPITEM ##############")
-user4 = user.copy()
-user4.update({'sex': 'Male'})
-print(user4)
-print(user4.popitem())
-print(user4)
-user4.clear()
-print(user4)
+# print("############## KEYS AND VALUES ###########")
+# user2 = dict(name='henry',age='24')
+# print(user2)
+# print('name' in user2.keys())
+# print('henry' in user2.values())
+# print(user2.keys())
+# print(user2.values())
+# print(user2.items())
+# print("############## COPY AND POP #################")
+# user3 = user.copy()
+# print(user3)
+# print(user3.pop('cars'))
+# print(user3)
+# print("############## UPDATE AND POPITEM ##############")
+# user4 = user.copy()
+# user4.update({'sex': 'Male'})
+# print(user4)
+# print(user4.popitem())
+# print(user4)
+# user4.clear()
+# print(user4)
+
+
+#TUPLE 
+nums = (1,2,3,4,5,6,5,6)
+print(nums.count(5))
+print(nums.index(4))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
